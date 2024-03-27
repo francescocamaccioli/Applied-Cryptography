@@ -1,0 +1,15 @@
+We intercepted a communication of the enemies.
+They are so self-confident that they dared transmit this message in the clear!
+
+	"Dear Secret Services,
+	I, your President, have mastered the art of cryptography in just one day.
+	In fact, I humbly think that I have created the perfect cipher.
+	I have inserted MANY security features!
+	Therefore all your further communications must be encrypted with the code you find attached to this message.
+	Remember to insert your codename in the communications!
+	Send me the nuclear code.
+	That's an order.
+	Yours truly,
+	President Chad."
+
+Please crack this so-called "perfect" cipher!

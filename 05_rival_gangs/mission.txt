@@ -1,0 +1,33 @@
+
+CJ! We intercepted a communication from those Ballas dogs!
+It is just a number, but we think it hides the combination
+for their secret vault.
+They use some sort of RSA, and we got their public key
+	(17,5555555555931888888891173)
+    (e,n)
+
+this is what we captured:
+	y = x^e mod n = 2439412161939172626535641
+
+What's the combination, CJ?!
+
+{
+P.s. BONUS: If you (the student) caught the reference,
+translate from integers to ascii the combination!
+(for example: EXAMPLE = 69886577807669)
+	E  X  A  M  P  L  E
+	69 88 65 77 80 76 69
+}
+
+--------------------------------------------------------------------------------
+Solution
+phi(n) = phi(5555555555931888888891173) = 5555555555925333333335520
+n = 5555555555931888888891173 = (p * q) = 1000000000061*5555555555593
+p = 1000000000061
+q = 5555555555593
+
+17 * d = 1 mod 5555555555925333333335520
+
+d = 3267973856426666666667953
+
+x = y^d mod n = 837779756984826573847982

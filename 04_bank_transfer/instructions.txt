@@ -1,0 +1,11 @@
+GENERATION OF EXECUTABLES
+
+The exercise requires the generation of executables of bt_enc.cpp, bt_dec.cpp, and verifier.cpp.
+
+These programs make use of the OpenSSL APIs. For this reason, please remember to:
+
+1) Install libssl-dev package.
+sudo apt-get install libssl-dev
+
+2) Link the OpenSSL library
+g++ -o prog prog.cpp -lcrypto
